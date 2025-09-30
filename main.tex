@@ -1,0 +1,248 @@
+%%%% Modèle proposé par frederic.mazaleyrat@ens-paris-saclay.fr %%%%
+%%%% 3 avril 2021 %%%%
+
+\documentclass[french,12pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\usepackage{color} % où xcolor selon l'installation
+%\definecolor{Prune}{RGB}{99,0,60}
+\usepackage{mdframed}
+\usepackage{multirow} %% Pour mettre un texte sur plusieurs rangées
+\usepackage{multicol} %% Pour mettre un texte sur plusieurs colonnes
+\usepackage{scrextend} %Forcer la 4eme  de couverture en page pair
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage[absolute]{textpos} 
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{hyperref}
+
+\usepackage{lipsum} % à retirer!!!
+\begin{document}
+
+\begin{titlepage}
+
+
+%\thispagestyle{empty}
+
+\newgeometry{left=6cm,bottom=2cm, top=1cm, right=1cm}
+
+\tikz[remember picture,overlay] \node[opacity=1,inner sep=0pt] at (-13mm,-135mm){\includegraphics{logo/banner_UGA_blue_final.pdf}};
+
+% fonte sans empattement pour la page de titre
+\fontfamily{fvs}\fontseries{m}\selectfont
+
+
+%******* Commentaire couleur **************
+
+\newcommand\CR[1]{{\leavevmode\color{teal}#1}}
+\newcommand\FS[1]{{\leavevmode\color{red}#1}}
+\newcommand\WZ[1]{{\leavevmode\color{blue}#1}}
+
+\newcommand\remove[1]{}
+
+\newcommand\arelire[1]{{\leavevmode\color{violet}#1}}
+\newcommand\interge[1]{{\leavevmode\color{purple}#1}}
+
+%*****************************************************
+
+%*****************************************************
+%******** NUMÉRO D'ORDRE DE LA THÈSE À COMPLÉTER *****
+%******** POUR LE SECOND DÉPOT                   *****
+%*****************************************************
+
+\color{white}
+
+\begin{picture}(0,0)
+
+%\put(-110,-743){\rotatebox{90}{NNT: 2020UPASA000}}
+\end{picture}
+ 
+%*****************************************************
+%**  LOGO  ÉTABLISSEMENT PARTENAIRE SI COTUTELLE
+%**  CHANGER L'IMAGE PAR DÉFAUT **
+%*****************************************************
+\vspace{-10mm} % à ajuster en fonction de la hauteur du logo
+\flushright \includegraphics[scale=0.5]{logo/New_Logo_LCIS-300x100-removebg-preview.png}
+
+
+
+
+%*****************************************************
+%******************** TITRE **************************
+%*****************************************************
+\flushright
+\vspace{10mm} % à régler éventuellement
+\color{orange}
+\fontfamily{cmss}\fontseries{m}\fontsize{22}{26}\selectfont
+  Développement tout au long de la vie de représentations pour les agents artificiels
+
+\normalsize
+\color{black}
+\Large{\textit{Lifelong development of representations for artificial agents}}
+%*****************************************************
+
+%\fontfamily{fvs}\fontseries{m}\fontsize{8}{12}\selectfont
+
+\vspace{1.5cm}
+\normalsize
+
+\textbf{Thèse de doctorat de l'Université Grenoble Alpes}
+
+
+\vspace{15mm}
+
+École doctorale n$^{\circ}$ 217, MSTII\\
+\small Spécialité de doctorat: Informatique\\
+\footnotesize Unité de recherche: lcis – laboratoire de conception et d'intégration des systèmes\\
+\footnotesize Référent: : voir annexe
+\vspace{15mm}
+
+\textbf{Thèse présentée et soutenue à .....,\\ le .... 202X, par}\\
+\bigskip
+\Large {\color{orange} \textbf{WeiKang ZENG}}
+
+
+%************************************
+\vspace{\fill} % ALIGNER LE TABLEAU EN BAS DE PAGE
+%************************************
+
+%\flushleft \small \textbf{Composition du jury:}
+\bigskip
+
+\flushleft
+
+\scriptsize
+\begin{tabular}{|p{7cm}l}
+\arrayrulecolor{orange}
+{\footnotesize \textbf{Composition du jury}}\\
+& \\
+\textbf{Prénom Nom} &   Président/e\\ 
+Titre, Affiliation & \\
+\textbf{Prénom Nom} &  Rapportrice \\ 
+Titre, Affiliation   &   \\ 
+\textbf{Prénom Nom} &  Rapporteur \\ 
+Titre, Affiliation  &   \\ 
+\textbf{Prénom Nom} &  Examinatrice \\ 
+Titre, Affiliation   &   \\ 
+\textbf{Prénom Nom} &  Examinateur \\ 
+Titre, Affiliation   &   \\ 
+\textbf{Prénom Nom} &  Examinateur \\ 
+Titre, Affiliationt   &   \\ 
+
+\end{tabular} 
+
+\medskip
+\begin{tabular}{|p{7cm}l}
+\arrayrulecolor{orange}
+{\footnotesize \textbf{Direction de la thèse}}\\
+& \\
+\textbf{Prénom Nom} &   Directrice\\ 
+Titre, Affiliation & \\
+\textbf{Prénom Nom} &   Codirecteur\\ 
+Titre, Affiliation  &   \\ 
+\textbf{Prénom Nom} &   Coencadrante\\ 
+Titre, Affiliation  &   \\ 
+\textbf{Prénom Nom} &  tuteur en entreprise \\ 
+Titre, Affiliation  &   \\ 
+
+
+\end{tabular} 
+
+
+\end{titlepage}
+
+% —— C'est ici que commence l'ajout des répertoires et des partitions. —— 
+\frontmatter                 % Facultatif : utilisez les chiffres romains pour les numéros de page dans la préface.
+\tableofcontents             % （Table des matières）
+\cleardoublepage
+\mainmatter                  % À partir du chapitre 1, numéros de page en chiffres arabes
+% —— Fin —— 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% insérez ici les fichiers des chapitre
+
+
+
+\include{chapitres/chap1}
+\include{chapitres/chap2}
+\include{chapitres/chap3}
+\include{chapitres/chap4}
+\include{chapitres/chap5}
+\include{chapitres/chap6}
+\include{chapitres/chap7}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 4eme de couverture
+\Ifthispageodd{\newpage\thispagestyle{empty}\null\newpage}{}
+\thispagestyle{empty}
+\newgeometry{top=1.5cm, bottom=1.25cm, left=2cm, right=2cm}
+\fontfamily{rm}\selectfont
+
+\lhead{}
+\rhead{}
+\rfoot{}
+\cfoot{}
+\lfoot{}
+
+\noindent 
+%*****************************************************
+%***** LOGO DE L'ED À CHANGER IMPÉRATIVEMENT *********
+%*****************************************************
+\includegraphics[height=1.45cm]{logo/mstii2.png}
+\vspace{1cm}
+%*****************************************************
+\fontfamily{cmss}\fontseries{m}\selectfont
+
+\small
+
+\begin{mdframed}[linecolor=orange,linewidth=1]
+
+\textbf{Titre:} Titre de la thèse en français
+
+
+\noindent \textbf{Mots clés:} Quelques mots-clé
+
+\vspace{-.5cm}
+\begin{multicols}{2}
+\noindent \textbf{Résumé:}\lipsum[1-2] 
+\end{multicols}
+
+\end{mdframed}
+
+\begin{mdframed}[linecolor=orange,linewidth=1]
+
+\textbf{Title:} Thesis title in English
+
+\noindent \textbf{Keywords:} Some keywords
+
+\begin{multicols}{2}
+\noindent \textbf{Abstract:} \lipsum[1-2]
+\end{multicols}
+\end{mdframed}
+
+%************************************
+\vspace{\fill} % ALIGNER EN BAS DE PAGE
+%************************************
+
+\noindent
+\color{orange} \footnotesize Maison du doctorat de Université Grenoble Alpes\\
+Collège doctoral - École doctorale MSTII\\
+1221 rue des Résidences\\
+38400 Saint-Martin-d’Hères, France
+
+
+\bibliographystyle{abbrv-fr}
+\bibliography{references}
+
+\end{document}

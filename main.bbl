@@ -1,0 +1,245 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+
+\bibitem{achille2017critical}
+A.~\bgroup\fonteauteurs\bgroup Achille\egroup\egroup{}, M.~\bgroup\fonteauteurs\bgroup Rovere\egroup\egroup{} et S.~\bgroup\fonteauteurs\bgroup Soatto\egroup\egroup{} :
+\newblock Critical learning periods in deep neural networks.
+\newblock {\em arXiv preprint arXiv:1711.08856}, 2017.
+
+\bibitem{arkin1997aura}
+R.~C. \bgroup\fonteauteurs\bgroup Arkin\egroup\egroup{} et T.~\bgroup\fonteauteurs\bgroup Balch\egroup\egroup{} :
+\newblock Aura: Principles and practice in review.
+\newblock {\em Journal of Experimental \& Theoretical Artificial Intelligence}, 9(2-3)\string:\penalty500\relax 175--189, 1997.
+
+\bibitem{baillargeon1991object}
+R.~\bgroup\fonteauteurs\bgroup Baillargeon\egroup\egroup{} et J.~\bgroup\fonteauteurs\bgroup DeVos\egroup\egroup{} :
+\newblock Object permanence in young infants: Further evidence.
+\newblock {\em Child development}, 62(6)\string:\penalty500\relax 1227--1246, 1991.
+
+\bibitem{bengio2009curriculum}
+Y.~\bgroup\fonteauteurs\bgroup Bengio\egroup\egroup{}, J.~\bgroup\fonteauteurs\bgroup Louradour\egroup\egroup{}, R.~\bgroup\fonteauteurs\bgroup Collobert\egroup\egroup{} et J.~\bgroup\fonteauteurs\bgroup Weston\egroup\egroup{} :
+\newblock {Curriculum learning}.
+\newblock \emph{In} {\em Proceedings of the 26th Annual International Conference on Machine Learning}, p. 41--48. ACM, 2009.
+
+\bibitem{Bremner2000}
+J.~\bgroup\fonteauteurs\bgroup Bremner\egroup\egroup{} :
+\newblock Developmental relationships between perception and action in infancy.
+\newblock {\em Infant Behavior and Development}, 23(3–4)\string:\penalty500\relax 567–582, mars 2000.
+
+\bibitem{brohan2023rt}
+A.~\bgroup\fonteauteurs\bgroup Brohan\egroup\egroup{}, N.~\bgroup\fonteauteurs\bgroup Brown\egroup\egroup{}, J.~\bgroup\fonteauteurs\bgroup Carbajal\egroup\egroup{}, Y.~\bgroup\fonteauteurs\bgroup Chebotar\egroup\egroup{}, X.~\bgroup\fonteauteurs\bgroup Chen\egroup\egroup{}, K.~\bgroup\fonteauteurs\bgroup Choromanski\egroup\egroup{}, T.~\bgroup\fonteauteurs\bgroup Ding\egroup\egroup{}, D.~\bgroup\fonteauteurs\bgroup Driess\egroup\egroup{}, A.~\bgroup\fonteauteurs\bgroup Dubey\egroup\egroup{}, C.~\bgroup\fonteauteurs\bgroup Finn\egroup\egroup{} \emph{et~al.} :
+\newblock Rt-2: Vision-language-action models transfer web knowledge to robotic control.
+\newblock {\em arXiv preprint arXiv:2307.15818}, 2023.
+
+\bibitem{brooks1986}
+R.~A. \bgroup\fonteauteurs\bgroup Brooks\egroup\egroup{} :
+\newblock {A robust layered control system for a mobile robot}.
+\newblock {\em IEEE Journal of Robotics and Automation}, 2(1)\string:\penalty500\relax 14--23, 1986.
+
+\bibitem{casey2000structural}
+B.~\bgroup\fonteauteurs\bgroup Casey\egroup\egroup{}, J.~N. \bgroup\fonteauteurs\bgroup Giedd\egroup\egroup{} et K.~M. \bgroup\fonteauteurs\bgroup Thomas\egroup\egroup{} :
+\newblock Structural and functional brain development and its relation to cognitive development.
+\newblock {\em Biological psychology}, 54(1-3)\string:\penalty500\relax 241--257, 2000.
+
+\bibitem{cisneros2020critical}
+J.~M. \bgroup\fonteauteurs\bgroup Cisneros-Franco\egroup\egroup{}, P.~\bgroup\fonteauteurs\bgroup Voss\egroup\egroup{}, M.~E. \bgroup\fonteauteurs\bgroup Thomas\egroup\egroup{} et E.~de~\bgroup\fonteauteurs\bgroup Villers-Sidani\egroup\egroup{} :
+\newblock Critical periods of brain development.
+\newblock \emph{In} {\em Handbook of clinical neurology}, vol. 173, p. 75--88. Elsevier, 2020.
+
+\bibitem{curtis2003persistent}
+C.~E. \bgroup\fonteauteurs\bgroup Curtis\egroup\egroup{} et M.~\bgroup\fonteauteurs\bgroup D'Esposito\egroup\egroup{} :
+\newblock Persistent activity in the prefrontal cortex during working memory.
+\newblock {\em Trends in cognitive sciences}, 7(9)\string:\penalty500\relax 415--423, 2003.
+
+\bibitem{de2022critical}
+R.~\bgroup\fonteauteurs\bgroup De~Kleijn\egroup\egroup{}, D.~\bgroup\fonteauteurs\bgroup Sen\egroup\egroup{} et G.~\bgroup\fonteauteurs\bgroup Kachergis\egroup\egroup{} :
+\newblock A critical period for robust curriculum-based deep reinforcement learning of sequential action in a robot arm.
+\newblock {\em Topics in Cognitive Science}, 14(2)\string:\penalty500\relax 311--326, 2022.
+
+\bibitem{dehaene2024perceptual}
+G.~\bgroup\fonteauteurs\bgroup Dehaene-Lambertz\egroup\egroup{} :
+\newblock Perceptual awareness in human infants: What is the evidence?
+\newblock {\em Journal of Cognitive Neuroscience}, 36(8)\string:\penalty500\relax 1599--1609, 2024.
+
+\bibitem{dohare2024loss}
+S.~\bgroup\fonteauteurs\bgroup Dohare\egroup\egroup{}, J.~F. \bgroup\fonteauteurs\bgroup Hernandez-Garcia\egroup\egroup{}, Q.~\bgroup\fonteauteurs\bgroup Lan\egroup\egroup{}, P.~\bgroup\fonteauteurs\bgroup Rahman\egroup\egroup{}, A.~R. \bgroup\fonteauteurs\bgroup Mahmood\egroup\egroup{} et R.~S. \bgroup\fonteauteurs\bgroup Sutton\egroup\egroup{} :
+\newblock Loss of plasticity in deep continual learning.
+\newblock {\em Nature}, 632(8026)\string:\penalty500\relax 768--774, 2024.
+
+\bibitem{dorigo1994robot}
+M.~\bgroup\fonteauteurs\bgroup Dorigo\egroup\egroup{} et M.~\bgroup\fonteauteurs\bgroup Colombetti\egroup\egroup{} :
+\newblock {Robot shaping: Developing autonomous agents through learning}.
+\newblock {\em Artificial intelligence}, 71(2)\string:\penalty500\relax 321--370, 1994.
+
+\bibitem{erikson1963childhood}
+E.~H. \bgroup\fonteauteurs\bgroup Erikson\egroup\egroup{} :
+\newblock {\em Childhood and society}, vol.~2.
+\newblock Norton New York, 1963.
+
+\bibitem{gale2004critical}
+C.~R. \bgroup\fonteauteurs\bgroup Gale\egroup\egroup{}, F.~J. \bgroup\fonteauteurs\bgroup O’Callaghan\egroup\egroup{}, K.~M. \bgroup\fonteauteurs\bgroup Godfrey\egroup\egroup{}, C.~M. \bgroup\fonteauteurs\bgroup Law\egroup\egroup{} et C.~N. \bgroup\fonteauteurs\bgroup Martyn\egroup\egroup{} :
+\newblock Critical periods of brain growth and cognitive function in children.
+\newblock {\em Brain}, 127(2)\string:\penalty500\relax 321--329, 2004.
+
+\bibitem{gay2023intersubjectivity}
+S.~L. \bgroup\fonteauteurs\bgroup Gay\egroup\egroup{}, F.~\bgroup\fonteauteurs\bgroup Suro\egroup\egroup{}, O.~L. \bgroup\fonteauteurs\bgroup Georgeon\egroup\egroup{} et J.~\bgroup\fonteauteurs\bgroup Jamont\egroup\egroup{} :
+\newblock An affordance-based intersubjectivity mechanism to infer the behaviour of other agents.
+\newblock \emph{In} {\em Int Confo {ICDL}}, p. 403--408. {IEEE}, 2023.
+
+\bibitem{Heess16}
+N.~\bgroup\fonteauteurs\bgroup Heess\egroup\egroup{}, G.~\bgroup\fonteauteurs\bgroup Wayne\egroup\egroup{}, Y.~\bgroup\fonteauteurs\bgroup Tassa\egroup\egroup{}, T.~P. \bgroup\fonteauteurs\bgroup Lillicrap\egroup\egroup{}, M.~A. \bgroup\fonteauteurs\bgroup Riedmiller\egroup\egroup{} et D.~\bgroup\fonteauteurs\bgroup Silver\egroup\egroup{} :
+\newblock Learning and transfer of modulated locomotor controllers.
+\newblock {\em CoRR}, abs/1610.05182, 2016.
+
+\bibitem{ho2016generative}
+J.~\bgroup\fonteauteurs\bgroup Ho\egroup\egroup{} et S.~\bgroup\fonteauteurs\bgroup Ermon\egroup\egroup{} :
+\newblock Generative adversarial imitation learning.
+\newblock {\em Advances in neural information processing systems}, 29, 2016.
+
+\bibitem{hubel1963receptive}
+D.~H. \bgroup\fonteauteurs\bgroup Hubel\egroup\egroup{} et T.~N. \bgroup\fonteauteurs\bgroup Wiesel\egroup\egroup{} :
+\newblock Receptive fields of cells in striate cortex of very young, visually inexperienced kittens.
+\newblock {\em Journal of neurophysiology}, 26(6)\string:\penalty500\relax 994--1002, 1963.
+
+\bibitem{kreipe1983hurried}
+R.~\bgroup\fonteauteurs\bgroup KREIPE\egroup\egroup{} :
+\newblock The hurried child: Growing up too fast too soon.
+\newblock {\em American Journal of Diseases of Children}, 137(2)\string:\penalty500\relax 190--191, 1983.
+
+\bibitem{lecun2015deep}
+Y.~\bgroup\fonteauteurs\bgroup LeCun\egroup\egroup{}, Y.~\bgroup\fonteauteurs\bgroup Bengio\egroup\egroup{} et G.~\bgroup\fonteauteurs\bgroup Hinton\egroup\egroup{} :
+\newblock Deep learning.
+\newblock {\em nature}, 521(7553)\string:\penalty500\relax 436--444, 2015.
+
+\bibitem{lungarella2002interplay}
+M.~\bgroup\fonteauteurs\bgroup Lungarella\egroup\egroup{} et L.~\bgroup\fonteauteurs\bgroup Berthouze\egroup\egroup{} :
+\newblock On the interplay between morphological, neural, and environmental dynamics: a robotic case study.
+\newblock {\em Adaptive Behavior}, 10(3-4)\string:\penalty500\relax 223--241, 2002.
+
+\bibitem{miao2025weight}
+Z.~\bgroup\fonteauteurs\bgroup Miao\egroup\egroup{} et M.~\bgroup\fonteauteurs\bgroup Zhao\egroup\egroup{} :
+\newblock Weight-freezing: A motor imagery inspired regularization approach for eeg classification.
+\newblock {\em Biomedical Signal Processing and Control}, 100\string:\penalty500\relax 107015, 2025.
+
+\bibitem{moravec1988mind}
+H.~\bgroup\fonteauteurs\bgroup Moravec\egroup\egroup{} :
+\newblock Mind children: The future of robot and human intelligence.
+\newblock {\em Harvard UP}, 1988.
+
+\bibitem{Nagel1974What}
+T.~\bgroup\fonteauteurs\bgroup Nagel\egroup\egroup{} :
+\newblock What is it like to be a bat?
+\newblock {\em The Philosophical Review}, 83(4)\string:\penalty500\relax 435--450, 1974.
+
+\bibitem{narvekar2016source}
+S.~\bgroup\fonteauteurs\bgroup Narvekar\egroup\egroup{}, J.~\bgroup\fonteauteurs\bgroup Sinapov\egroup\egroup{}, M.~\bgroup\fonteauteurs\bgroup Leonetti\egroup\egroup{} et P.~\bgroup\fonteauteurs\bgroup Stone\egroup\egroup{} :
+\newblock {Source task creation for curriculum learning}.
+\newblock \emph{In} {\em AAMAS}, p. 566--574. International Foundation for Autonomous Agents and Multiagent Systems, 2016.
+
+\bibitem{oudeyer2012developmental}
+P.-Y. \bgroup\fonteauteurs\bgroup Oudeyer\egroup\egroup{} :
+\newblock {Developmental robotics}.
+\newblock \emph{In} {\em Encyclopedia of the Sciences of Learning}, p. 969--972. Springer, 2012.
+
+\bibitem{Oztop2020}
+E.~\bgroup\fonteauteurs\bgroup Oztop\egroup\egroup{} et E.~\bgroup\fonteauteurs\bgroup Ugur\egroup\egroup{} :
+\newblock {Lifelong Robot Learning}.
+\newblock \emph{In} {\em Encyclopedia of Robotics}, p. 1--12. Springer Berlin Heidelberg, 2020.
+
+\bibitem{park2021toddler}
+J.~\bgroup\fonteauteurs\bgroup Park\egroup\egroup{}, K.~\bgroup\fonteauteurs\bgroup Park\egroup\egroup{}, H.~\bgroup\fonteauteurs\bgroup Oh\egroup\egroup{}, G.~\bgroup\fonteauteurs\bgroup Lee\egroup\egroup{}, M.~\bgroup\fonteauteurs\bgroup Lee\egroup\egroup{}, Y.~\bgroup\fonteauteurs\bgroup Lee\egroup\egroup{} et B.-T. \bgroup\fonteauteurs\bgroup Zhang\egroup\egroup{} :
+\newblock Toddler-guidance learning: Impacts of critical period on multimodal ai agents.
+\newblock \emph{In} {\em Proceedings of the 2021 International Conference on Multimodal Interaction}, p. 212--220, 2021.
+
+\bibitem{pilicontributions}
+D.~\bgroup\fonteauteurs\bgroup Pili-Moss\egroup\egroup{} et K.~A. \bgroup\fonteauteurs\bgroup Brill-Schuetz\egroup\egroup{} :
+\newblock Contributions of declarative and procedural memory to accuracy and automatization during second language practice.
+\newblock 2019.
+
+\bibitem{quamprocedural}
+C.~\bgroup\fonteauteurs\bgroup Quam\egroup\egroup{}, A.~\bgroup\fonteauteurs\bgroup Wang\egroup\egroup{}, W.~T. \bgroup\fonteauteurs\bgroup Maddox\egroup\egroup{} et K.~\bgroup\fonteauteurs\bgroup Golisch\egroup\egroup{} :
+\newblock Procedural-memory, working-memory, and declarative-memory skills are each associated with dimensional integration in sound-category learning.
+\newblock 2018.
+
+\bibitem{DBLP:conf/jfsma/SouleJOTT24}
+J.~\bgroup\fonteauteurs\bgroup Soul{\'{e}}\egroup\egroup{}, J.~\bgroup\fonteauteurs\bgroup Jamont\egroup\egroup{}, M.~\bgroup\fonteauteurs\bgroup Occello\egroup\egroup{}, L.~\bgroup\fonteauteurs\bgroup Traonouez\egroup\egroup{} et P.~\bgroup\fonteauteurs\bgroup Th{\'{e}}ron\egroup\egroup{} :
+\newblock Une approche bas{\'{e}}e sur l'apprentissage par renforcement pour l'ing{\'{e}}nierie organisationelle d'un {SMA}.
+\newblock p. 119--128. JFSMA, C{\'{e}}padu{\`{e}}s, 2024.
+
+\bibitem{srivastava2014dropout}
+N.~\bgroup\fonteauteurs\bgroup Srivastava\egroup\egroup{}, G.~\bgroup\fonteauteurs\bgroup Hinton\egroup\egroup{}, A.~\bgroup\fonteauteurs\bgroup Krizhevsky\egroup\egroup{}, I.~\bgroup\fonteauteurs\bgroup Sutskever\egroup\egroup{} et R.~\bgroup\fonteauteurs\bgroup Salakhutdinov\egroup\egroup{} :
+\newblock Dropout: a simple way to prevent neural networks from overfitting.
+\newblock {\em The journal of machine learning research}, 15(1)\string:\penalty500\relax 1929--1958, 2014.
+
+\bibitem{steels2008symbol}
+L.~\bgroup\fonteauteurs\bgroup Steels\egroup\egroup{} :
+\newblock {The symbol grounding problem has been solved, so what’s next}.
+\newblock {\em Symbols and embodiment: Debates on meaning and cognition}, p. 223--244, 2008.
+
+\bibitem{stone2000layered}
+P.~\bgroup\fonteauteurs\bgroup Stone\egroup\egroup{} et M.~\bgroup\fonteauteurs\bgroup Veloso\egroup\egroup{} :
+\newblock Layered learning.
+\newblock \emph{In} {\em European Conference on Machine Learning}, p. 369--381. Springer, 2000.
+
+\bibitem{suro2020mindmas}
+F.~\bgroup\fonteauteurs\bgroup Suro\egroup\egroup{}, J.~\bgroup\fonteauteurs\bgroup Ferber\egroup\egroup{}, T.~\bgroup\fonteauteurs\bgroup Stratulat\egroup\egroup{} et F.~\bgroup\fonteauteurs\bgroup Michel\egroup\egroup{} :
+\newblock {{\'{E}}mergence de comportements collectifs bas{\'{e}}e sur l'apprentissage progressif individuel}.
+\newblock JFSMA, C{\'{e}}padu{\`{e}}s, 2020.
+
+\bibitem{suro2021mind}
+F.~\bgroup\fonteauteurs\bgroup Suro\egroup\egroup{}, J.~\bgroup\fonteauteurs\bgroup Ferber\egroup\egroup{}, T.~\bgroup\fonteauteurs\bgroup Stratulat\egroup\egroup{} et F.~\bgroup\fonteauteurs\bgroup Michel\egroup\egroup{} :
+\newblock {A hierarchical representation of behaviour supporting open ended development and progressive learning for artificial agents}.
+\newblock {\em Autonomous Robots}, 01 2021.
+
+\bibitem{ten1999procedural}
+T.~\bgroup\fonteauteurs\bgroup Ten~Berge\egroup\egroup{} et R.~\bgroup\fonteauteurs\bgroup Van~Hezewijk\egroup\egroup{} :
+\newblock {Procedural and declarative knowledge: An evolutionary perspective}.
+\newblock {\em Theory \& Psychology}, 9(5)\string:\penalty500\relax 605--624, 1999.
+
+\bibitem{turing2009computing}
+A.~M. \bgroup\fonteauteurs\bgroup Turing\egroup\egroup{} :
+\newblock {\em Computing machinery and intelligence}.
+\newblock Springer, 2009.
+
+\bibitem{turkewitz1982limitations}
+G.~\bgroup\fonteauteurs\bgroup Turkewitz\egroup\egroup{} et P.~A. \bgroup\fonteauteurs\bgroup Kenny\egroup\egroup{} :
+\newblock Limitations on input as a basis for neural organization and perceptual development: A preliminary theoretical statement.
+\newblock {\em Developmental Psychobiology}, 15(4)\string:\penalty500\relax 357--368, 1982.
+
+\bibitem{vandenbroucke2014accurate}
+A.~R. \bgroup\fonteauteurs\bgroup Vandenbroucke\egroup\egroup{}, I.~G. \bgroup\fonteauteurs\bgroup Sligte\egroup\egroup{}, A.~B. \bgroup\fonteauteurs\bgroup Barrett\egroup\egroup{}, A.~K. \bgroup\fonteauteurs\bgroup Seth\egroup\egroup{}, J.~J. \bgroup\fonteauteurs\bgroup Fahrenfort\egroup\egroup{} et V.~A. \bgroup\fonteauteurs\bgroup Lamme\egroup\egroup{} :
+\newblock {Accurate metacognition for visual sensory memory representations}.
+\newblock {\em Psychological science}, 25(4)\string:\penalty500\relax 861--873, 2014.
+
+\bibitem{von1985object}
+C.~von \bgroup\fonteauteurs\bgroup Hofsten\egroup\egroup{} et E.~S. \bgroup\fonteauteurs\bgroup Spelke\egroup\egroup{} :
+\newblock Object perception and object-directed reaching in infancy.
+\newblock {\em Journal of Experimental Psychology: General}, 114(2)\string:\penalty500\relax 198, 1985.
+
+\bibitem{vygotsky1978mind}
+L.~S. \bgroup\fonteauteurs\bgroup Vygotsky\egroup\egroup{} :
+\newblock {\em Mind in society: The development of higher psychological processes}, vol.~86.
+\newblock Harvard university press, 1978.
+
+\bibitem{wang2024critical}
+J.~\bgroup\fonteauteurs\bgroup Wang\egroup\egroup{}, R.~\bgroup\fonteauteurs\bgroup Cao\egroup\egroup{}, P.~N. \bgroup\fonteauteurs\bgroup Chakravarthula\egroup\egroup{}, X.~\bgroup\fonteauteurs\bgroup Li\egroup\egroup{} et S.~\bgroup\fonteauteurs\bgroup Wang\egroup\egroup{} :
+\newblock A critical period for developing face recognition.
+\newblock {\em Patterns}, 5(2), 2024.
+
+\bibitem{wang2021survey}
+X.~\bgroup\fonteauteurs\bgroup Wang\egroup\egroup{}, Y.~\bgroup\fonteauteurs\bgroup Chen\egroup\egroup{} et W.~\bgroup\fonteauteurs\bgroup Zhu\egroup\egroup{} :
+\newblock A survey on curriculum learning.
+\newblock {\em IEEE transactions on pattern analysis and machine intelligence}, 44(9)\string:\penalty500\relax 4555--4576, 2021.
+
+\bibitem{werker1984cross}
+J.~F. \bgroup\fonteauteurs\bgroup Werker\egroup\egroup{} et R.~C. \bgroup\fonteauteurs\bgroup Tees\egroup\egroup{} :
+\newblock Cross-language speech perception: Evidence for perceptual reorganization during the first year of life.
+\newblock {\em Infant behavior and development}, 7(1)\string:\penalty500\relax 49--63, 1984.
+
+\bibitem{zhang2024vision}
+J.~\bgroup\fonteauteurs\bgroup Zhang\egroup\egroup{}, J.~\bgroup\fonteauteurs\bgroup Huang\egroup\egroup{}, S.~\bgroup\fonteauteurs\bgroup Jin\egroup\egroup{} et S.~\bgroup\fonteauteurs\bgroup Lu\egroup\egroup{} :
+\newblock Vision-language models for vision tasks: A survey.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence}, 2024.
+
+\end{thebibliography}

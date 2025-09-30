@@ -1,0 +1,45 @@
+% chapitres/chap1.tex
+
+\chapter{Introduction}
+Les systèmes d'intelligence artificielle actuels démontrent des capacités surhumaines dans des domaines précis mais
+s'adaptent difficilement aux problèmes en périphérie de ces domaines ou impliquant des interactions avec le monde physique. 
+Selon Moravec~\cite{moravec1988mind}, ces difficultés ne proviennent pas de la dimension du problème ou des limites de puissance de calcul mais plutôt d'un manque de "connaissances implicites" communes aux êtres vivants.
+
+%coucou c'est francois !
+
+\section{Contexte}
+La vision dualiste de la conception d'une intelligence artificielle \emph{incarnée}~\cite{arkin1997aura,Heess16,brohan2023rt} séparant le corps (sensorimoteur/action/spinal) et l'esprit (décisionnel/planification/cortical) permet de traiter séparément les problèmes de contrôle et de décision, comme différents composants logiciels, et différents domaines de recherche.
+Par exemple, les travaux présentés dans~\cite{zhang2024vision} combinent les derniers développements des modèles de langage avec une plate-forme robotique.
+Cependant, l'intelligence du système dépend directement des concepts abstraits générés par la cognition humaine, fournis à travers des exemples, ce qui limite l'adaptabilité de ces approches dans la production de nouveaux concepts (pour des environnements inconnus par exemple).
+Plus généralement, ces approches dualistes proviennent d'une analyse subjective a posteriori du fonctionnement de l'esprit adulte, dépendant d'un modèle de représentations existant a priori, et limite fondamentalement la possibilité d'obtenir une intelligence incarnée généraliste et adaptative, similaire aux intelligences naturelles.
+
+Pour que les systèmes artificiels en interaction avec la réalité soient dotés d'une telle intelligence, il est important que leurs mécanismes de décision soient incarnés dès leur initialisation, et qu'ils évoluent vers des opérations de niveau abstrait à travers l'interaction avec leur environnement, physique puis social.
+
+Les intelligences incarnées naturelles, animale et humaine, sont le fruit à la fois de l'évolution des espèces et des individus, en interaction constante avec leur environnement.
+Leur développement moteur et cognitif est le produit d'interactions dynamiques de plus en plus complexes entre le cerveau, le corps et l'environnement.
+Ce développement est produit par des mécanismes d'auto-organisation \cite{oudeyer2012developmental} et des systèmes motivationnels (dopamine) favorisant l'exploration et la manipulation active leur environnement.
+Ainsi, la curiosité qui guide chez l'enfant la découverte autonome des propriétés physiques du monde s'étend aux récompenses différées qui motivent les adultes à maintenir une activité cognitive.
+Les relations sociales jouent également un rôle primordial dans ce développement, pour guider l'exploration (éducation, enseignement) et présenter un environnement qui requière le développement d'opérations de niveau abstrait (intersubjectivité, rôle, langage).
+Une intelligence issue de ce processus graduel de développement intègre des "connaissances implicites" sur le monde, partagées par les êtres vivants, qui font défaut aux systèmes artificiels. 
+
+De nombreux travaux s'attachent à répliquer les capacités d'apprentissage des êtres vivants, dans le domaine général de l'Apprentissage Automatique (Machine Learning).
+Plus particulièrement appliqué à l'intelligence artificielle incarnée, la Robotique Développementale (Developmental Robotics)~\cite{oudeyer2012developmental} propose de nouvelles méthodes pour la conception de systèmes autonomes, adaptables et résilients, s'inspirant du développement des êtres vivants.
+Cette approche explore de manière plus large le problème de l'apprentissage, incluant entre autres les contraintes physiques du développement animal~\cite{lungarella2002interplay} ou l'aspect stratégique dans l'apprentissage par curriculum~\cite{bengio2009curriculum}.
+Plus récemment formulée, l'idée de développement ouvert et continu (Lifelong Learning)~\cite{Oztop2020} s'intéresse à l'aspect incrémental et cumulatif du développement comme un défi à relever pour l'adaptabilité, la réutilisation et la diversification des missions confiées aux systèmes d'intelligence artificielle.
+L'objectif fondamental derrière ces approches est d'utiliser les contraintes du développement du vivant pour permettre le développement une IA généraliste, une démarche qui fait écho à la proposition de Turing de simuler le développement humain \cite{turing2009computing}.
+
+Bien qu'un comportement intelligent puisse se passer de représentations internes \cite{brooks1986}, le développement de comportements complexes, proches de ceux des animaux supérieurs, requière la capacité à s'engager dans une tâche et adopter un comportement qui n'est pas entièrement conditionné par les informations sensorielles immédiates. La capacité à former des représentations est essentielle dans de nombreuses opérations de niveau abstrait, pour la généralisation de comportements, la manipulation de symbole, le langage, ou encore la gestion d'identité ou de rôle dans un contexte social. 
+
+Suivant l'approche développementale, l'agent artificiel doit former ses propres représentations de manière autonome, à partir de ses interactions avec l'environnement.
+Inspirés par la perspective évolutionniste qui considère les structures de la mémoire déclarative servant à la représentation de concepts comme un développement récent de la mémoire procédurale~\cite{ten1999procedural}, et l'interaction forte entre ces structures~\cite{quamprocedural} dans le développement, nous proposons d'amorcer les représentations dans la mémoire procédurale de l'agent en utilisant les mêmes structures servant aux comportements sensorimoteurs.
+Le processus initial pourra être répété pour accumuler progressivement ces éléments, en suivant un curriculum permettant d'établir des comportements et représentations d'une complexité croissante.
+
+La première partie de l'article souligne l'importance du processus de développement, pour les êtres vivants puis pour des systèmes artificiels. Nous présentons ensuite le rôle des représentations, leurs structures sous-jacentes et leur interaction avec les connaissances procédurales dans le développement de comportements complexes.
+Enfin, une méthodologie développementale visant à l'amorçage des représentations dans l'IA incarnée est présentée et illustrée par la proposition d'un curriculum adapté aux architectures pour le développement ouvert et continu d'agents artificiels.
+
+
+\section{Problématique}
+
+
+
+\section{Plan ou Contributions ou Organization}

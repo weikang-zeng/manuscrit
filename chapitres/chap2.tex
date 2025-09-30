@@ -1,0 +1,78 @@
+\chapter{État de l’art ou Fondations}
+
+\section{Fondements biologiques et psychologiques}
+
+\subsection{Biologiques}
+Chez les êtres vivants, le développement de l'intelligence est liée au développement physique de l'organisme et ne se fait pas de manière régulière et uniforme, mais par épisodes, dédiés à certains types d'opérations motrices ou cognitives.
+Ainsi, la maturation des connexions dans le lobe pariétal antérieur du cerveau ne permet qu'une période d'éveil relativement courte au cours des premières semaines~\cite{dehaene2024perceptual}, la durée du fonctionnement cognitif s'accroît ensuite avec la croissance du cerveau~\cite{gale2004critical}. Les capacités réduites du nourrisson ne constituent pas un handicap à surmonter, mais produisent des avantages adaptatifs facilitant l'apprentissage: les limitations sensorielles néonatales sont considérées comme une source majeure d'organisation perceptive, en réduisant la quantité d'informations avec laquelle le nourrisson doit composer~\cite{turkewitz1982limitations}.
+
+
+\subsubsection{Période critique}
+Indépendamment de la croissance du cerveau, la plasticité cérébrale qui influence la sensibilité à l'apprentissage varie au cours du temps. Elle est maximale au cours de \emph{périodes critiques}, durant lesquelles l'expérience sensorielle provoque des changements significatifs dans le cerveau.
+En dehors de ces périodes critiques, la sensibilité aux modifications diminue, permettant de stabiliser les structures établies sur lesquelles vont s'appuyer de nouvelles fonctions motrices et cognitives plus complexes~\cite{cisneros2020critical}. On constate une perte de sensibilité aux sons ne faisant pas partie de la langue maternelle au cours de la première année de vie qui impacte l'apprentissage du langage à long terme~\cite{werker1984cross}. Des expériences animales de privation sensorielle à la naissance montrent une altération permanente du cortex visuel~\cite{hubel1963receptive}. 
+
+\subsubsection{Type de mémoire}
+
+\subsubsection{Emergence des représentations}
+
+\subsection{Psychologiques}
+
+\subsubsection{Période critique}
+En psychologie, le développement de l'individu est vu comme une succession d'étapes, par exemple, Piaget identifie les stades sensorimoteurs, préopératoires, opératoires et formels de l'intelligence. 
+Ces étapes sont non seulement biologiques, mais aussi sociales, reposant sur l'intervention d'autres individus pour atteindre des niveaux de pensée plus abstraits~\cite{vygotsky1978mind}. L'impact social sur le développement, comme conséquence indirecte de l'évolution rapide de l'environnement socio-politique ou organisé sous formes de théories sur l'éducation et l'enseignement, fait l'objet de nombreuses études, notamment sur le respect du rythme de développement~\cite{kreipe1983hurried}.
+Enfin, le développement psychosocial~\cite{erikson1963childhood} ne se limite pas à l'enfance et s'accompagne de changements successifs du fonctionnement et du système de motivation, tout au long de la vie.
+
+
+\subsubsection{Type de motivation et émotions}
+\subsubsection{Emergence des représentations}
+
+\section{Fondements en robotique développementale et IA}
+
+\subsection{Robotique du développement}
+
+\subsection{Robotique évolutionnaire}
+
+\subsection{IA Agents d'apprentissage}
+Dans les systèmes artificiels, la plasticité neuronale s'apparente au taux d'apprentissage de l'apprentissage par renforcement (e.g. rétropropagation, q-learning) qui détermine la sensibilité aux modifications induites par les exemples présentés (un couple entrée-sortie et une action d'exploration respectivement). Sa variation temporelle contrôlée peut s'apparenter à la variation de température dans une recherche locale (recuit simulé) où la configuration du système peut de moins en moins s'éloigner de son état actuel à mesure que la température diminue. En apprentissage profond dans des environnements continus, on observe un phénomène similaire de perte de sensibilité~\cite{dohare2024loss}. La variation à la fois locale et temporelle de la plasticité est appliquée aux réseaux neuronaux artificiels~\cite{miao2025weight} et aux architectures pour agents artificiels~\cite{dorigo1994robot, suro2021mind} pour maîtriser la persistance de l'information et son accumulation.
+
+La levée progressive de limitations imposées au cours du développement favorise la formation de compétences motrices chez les robots~\cite{lungarella2002interplay}.
+De façon similaire, le masquage aléatoire de neurones (e.g. Dropout~\cite{srivastava2014dropout}) permet aux modèles neuronaux une généralisation plus efficace.
+L'augmentation progressive des capacités observée chez les êtres vivants est également une source d'inspiration pour l'apprentissage hiérarchique, la construction progressive de réseaux neuronaux (e.g. layered learning~\cite{stone2000layered}), la structuration progressive des couches neuronales dans le cadre de l’apprentissage profond~\cite{lecun2015deep}, ou encore l'intégration a posteriori de composants sensorimoteurs dans des architectures développementales \cite{suro2021mind}.
+
+L'influence sociale sur le développement se retrouve dans le contexte multiagent, pour l'apprentissage de comportements coopératifs entre individus~\cite{suro2020mindmas}, pour l'Ingénierie Organisationelle~\cite{DBLP:conf/jfsma/SouleJOTT24}, mais également dans les travaux sur les relations entre agent artificiel et instructeur humain.
+Les techniques d'apprentissage par imitation~\cite{ho2016generative} ou adversairielles, ainsi que les stratégies à plus long terme telles que l'apprentissage par curriculum~\cite{bengio2009curriculum}, visent à guider le développement de l'agent.
+
+Directement inspiré par la pédagogie, l'apprentissage par curriculum repose sur la conception d'une succession de tâches et d'environnements d'apprentissage, organisés par complexité croissante, et couvrant des aspects différents et complémentaires de la compétence finale visée. La conception du curriculum, mais également l'ordre dans lequel les tâches sont présentés lors de l'entraînement (\emph{curriculum scheduling}) sont des facteurs importants de l'apprentissage~\cite{wang2021survey}. L'application de cette approche va de l’approximation d’une fonction par un réseau neuronal à des problèmes de robotique et de jeux vidéos~\cite{narvekar2016source}, sur des architectures plus complexes~\cite{suro2021mind}.
+
+La notion de \emph{période critique} dans le développement d'agents artificiels est un sujet d'étude plus récent, motivée par la constatation d'une variation de la sensibilité à l'apprentissage au cours du temps dans des systèmes neuronaux artificiels ne possédant pourtant pas de mécanismes simulant la plasticité neuronale. Après une phase initiale d'apprentissage rapide, on constate une phase de consolidation du réseau après laquelle il est difficile d'intégrer de nouvelles données~\cite{achille2017critical}.
+En somme, le biais introduit par les premiers exemples fournis, plus que l'initialisation du réseau, impacte fortement le résultat de l'apprentissage.
+Ce même constat est fait sur des tâches de reconnaissance faciale~\cite{wang2024critical}.
+
+Une attention particulière doit donc être portée aux contenus et conditions d'apprentissage au cours du temps. Des travaux en robotique montrent qu'une première phase exploratoire, qui récompense la découverte des buts, doit précéder l'introduction de contraintes sur le mouvement (punition des collisions)~\cite{de2022critical}.
+Des travaux répliquant l'apprentissage chez les enfants en bas âge~\cite{park2021toddler} montrent que la durée de la phase d'exploration ("sparse-reward") précédant un apprentissage guidé ("moderate mentor guidance") est critique pour la qualité de l'apprentissage. Une phase exploratoire trop longue ou trop courte impacte négativement le comportement résultant.
+
+\section{Représentations dans une intelligence généraliste incarnée}
+
+Les mécanismes de représentation permettent aux intelligences incarnées de générer des éléments absents de la réalité observable pour enrichir leurs processus de décision. Ces éléments peuvent permettre de manipuler de l'information sur le passé ou le futur (persistance d'information capteurs~\cite{dorigo1994robot}, extrapolation de comportement \cite{gay2023intersubjectivity}), sur des phénomènes réels non perçus ou imperceptibles (permanence de l'objet, concepts abstraits), et permettent l'élaboration de comportements plus complexes. La représentation d'un concept dans la mémoire de l'agent est un compromis entre le temps de rétention de l'information, le niveau de détail et le niveau d'abstraction. Par exemple, le système visuel humain utilise trois niveaux de représentation
+successifs dont le temps de persistance est croissant~\cite{vandenbroucke2014accurate}: les mémoires iconique, fragile, et la mémoire dite "de travail", accessible consciemment.
+
+À un très haut niveau d'abstraction, on retrouve les représentations nécessaires à la communication, puis aux langages et symboles. Ces représentations de haut niveau sont elles-mêmes construites sur des représentations de niveaux inférieurs, par exemple dans l'émergence d'un vocabulaire servant à désigner les couleurs~\cite{steels2008symbol} où l'expérience sensorielle est associée à des "prototypes" (une représentation intermédiaire appauvrie des percepts) générés par l'agent qui sont à leur tour associés à des mots dont le sens est négocié lors d'interactions avec d'autres agents.
+
+Tout élément présent dans l'esprit d'un agent, qu'il s'agisse d'un savoir-faire ou d'une représentation, persiste dans une structure mémoire. On peut classifier la mémoire en deux catégories: la mémoire \emph{procédurale} qui contient les éléments tels que les compétences sensorimotrices, et la mémoire \emph{déclarative} qui contient les éléments dont on peut parler explicitement, ce que l'on va considérer comme des représentations. En pratique toutefois, cette distinction est moins nette. 
+
+L'utilisation du langage, une activité de haut niveau cognitif qui semble correspondre au rôle de la mémoire déclarative (manipulation consciente de représentations), dépend pourtant des structures de mémoires procédurales généralement associées aux mécanismes inconscients traitant de problèmes sensorimoteurs. Dans ce contexte, le traitement séquentiel, hiérarchique et les règles de syntaxe et de morphologies sollicitent la mémoire procédurale, tandis que le mémoire déclarative intègre le lexique et les irrégularités du langage~\cite{pilicontributions}.
+
+Dans le domaine des réseaux neuronaux artificiels, le terme représentation désigne l'état intermédiaire de traitement de la donnée présent dans les couches cachées d'un réseau. Le domaine des architectures agents et de l'intelligence incarnée considère plutôt les opérations des neurocontrôleurs comme procédurales, les représentations sont formées dans des composants de mémoire déclarative persistants. La distinction devient plus ambiguë dans le cas des réseaux de neurones récurrents, où l'état intermédiaire de l'information persiste entre deux cycles de traitement. 
+
+Chez l'homme, la mémoire procédurale est associée aux structures cérébrales des ganglions de la base, et la mémoire déclarative à celles de l'hippocampe. La perspective évolutionniste considère la mémoire déclarative, existant uniquement chez les animaux supérieurs, comme un développement plus récent que la mémoire procédurale~\cite{ten1999procedural}, et soutient l'idée d'une distinction moins nette et d'une évolution graduelle de l'une vers l'autre. Cette même progression est constatée dans le développement de l'individu: la maturation des ganglions de la base (mémoire procédurale) survient avant celle de l'hippocampe (mémoire déclarative)~\cite{casey2000structural}. Le comportement observé chez les enfants en bas âge est initialement basé sur la perception immédiate, ce n'est que plus tard qu'émergent les représentations permettant par exemple la persistance d'objets cachés~\cite{baillargeon1991object}.
+
+Le développement et le fonctionnement de la mémoire déclarative est fortement lié à la mémoire procédurale, l'interaction entre ces deux catégories de mémoire est attribué aux opérations du cortex préfrontal, une zone du cerveau qui reste longtemps en développement et conserve sa plasticité~\cite{curtis2003persistent}. On interprète son fonctionnement sous l'idée de \emph{mémoire de travail} opérant à court terme. La synergie des trois systèmes de mémoire contribue au développement de l'intelligence~\cite{quamprocedural}.
+
+Dans le développement de l'enfant, Piaget identifie les stades de construction d'une représentation de l'espace, de la représentation d'objets absents jusqu'aux opérations abstraites. Il est évident pour un adulte de se représenter les objets et leurs propriétés pour accomplir des actions, cependant la nécessité de ces représentations servant d'intermédiaire entre la perception et la décision est critiquée: La préhension d'un objet en mouvement par les nourrissons peut être considérée comme une combinaison d'approche et de suivi basé sur la perception de contours, ne nécessitant pas le calcul des positions futures de l'objet, ni de connaître le temps qu'il faut pour tendre la main~\cite{von1985object}. Cette conception élimine la nécessité de structures mentales de « niveau supérieur » qui interprètent la perception. Il est plus facile d'accepter la possibilité que les nourrissons entrent dans le monde équipés pour assimiler la structure objective de l'environnement que d'accepter qu'ils naissent avec des capacités de représentation de haut niveau~\cite{Bremner2000}.
+
+Construire la mémoire déclarative d'un agent artificiel en fournissant des représentations prédéterminées comporte nécessairement des biais~\cite{Nagel1974What} et limite potentiellement la pertinence de ces représentations. Le problème est similaire à la construction de comportements dans un environnement complexe et dynamique, perçu par l'agent par des capteurs dont le concepteur n'a pas l'expérience. De plus, des représentations "imposées" sont exposées au problème d'ancrage des symboles (\textit{symbol grounding problem})~\cite{steels2008symbol}. De telles représentations risquent de ne pas être généralisables par le manque de correspondance à l'expérience de l'agent et aux autres concepts émergent de son interaction avec l'environnement, ce qui entraîne des restrictions sur sa capacité à raisonner sur son environnement et à s'y adapter.
+
+
+
+\section{Challenge}
+\subsection{Limites des méthodes existantes : représentations prédéfinies → problèmes de biais et d'ancrage des symboles}
